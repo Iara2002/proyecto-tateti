@@ -52,7 +52,7 @@ window.addEventListener('DOMContentLoaded', () => {
         case PLAYERO_WON:
             announcer.innerHTML = 'Jugador <span class="playerO">O</span> gano';
             break;
-            case PLAYERO_WON:
+            case PLAYERX_WON:
                 announcer.innerHTML = 'Jugador <span class="playerX">X</span> gano';
                 break;
             case TIE:
